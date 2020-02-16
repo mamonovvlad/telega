@@ -1,0 +1,57 @@
+.process
+    position: relative
+    z-index: 5
+    & .process-title
+
+        & h2
+            margin-top: 60px
+            color: #000
+            text-align: center
+            & .blue-process
+                position: relative
+                &:before
+                    content: ''
+                    position: absolute
+                    top: 15px
+                    width: 100%
+                    right: -6px
+                    bottom: 13px
+                    z-index: -1
+                    background: #95e9d2
+            & .yellow-process
+                position: relative
+                &:after
+                    content: ''
+                    position: absolute
+                    top: 15px
+                    width: 100%
+                    left: 6px
+                    bottom: 13px
+                    z-index: -1
+                    background: #fde15d
+    & .process-box__block
+        width: 18%
+        margin: 0 50px
+        text-align: center
+        margin-top: 30px
+        position: relative
+        & span
+            position: absolute
+            font-family: "Lifehack"
+            top: 0
+            left: 10px
+            font-size: 3rem
+        & img
+            margin-bottom: 10px
+        & p
+            font-size: 1.5rem
+            white-space: pre-line
+.process-img::after
+    right: -135px
+    content: ''
+    top: 30px
+    background: url(../image/step.png) center no-repeat
+    position: absolute
+    display: block
+    width: 170px
+    height: 65px

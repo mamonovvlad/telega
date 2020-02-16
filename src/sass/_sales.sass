@@ -1,0 +1,98 @@
+.sales
+    overflow: hidden
+    & .sales-title
+        & h2
+            color: #000
+            text-align: center
+            margin-bottom: 30px
+.sales-blue-process
+    position: relative
+    &:after
+        content: ''
+        position: absolute
+        top: 28px
+        left: -25px
+        right: -10px
+        bottom: 13px
+        z-index: -1
+        background: #95e9d2
+.sales-descr
+    position: relative
+    & p
+        text-align: center
+        font-size: 1.5rem
+        text-transform: uppercase
+        width: 55%
+        margin-bottom: 50px
+.sales-small
+    & p
+        color: #000
+        background: #fde15d
+        font-size: 1.8rem
+        padding: 3px 10px 0
+        line-height: 17px
+        margin-bottom: 30px
+.sales-content
+    background: url(../image/package.jpg) center no-repeat
+    background-size: cover
+    &-block
+        text-align: center
+        margin-bottom: 5px
+        width: 26%
+        & p
+            white-space: pre-line
+        & b
+            font-family: "pfbeausanspro-sebold"
+.sales-content__btn
+    margin-top: 30px
+    & a
+        padding: 25px 35px 20px 35px
+        background: #fde44c
+        color: #000
+        text-transform: uppercase
+        font-family: "pfbeausanspro-bold"
+        cursor: pointer
+        transition: 250ms ease
+        &:hover
+            transition: 250ms ease
+            background: #e8d350
+
+.man-two::after
+    content: ''
+    height: 480px
+    width: 230px
+    background: url(../image/man3.png) center no-repeat
+    left: 0
+    top: 180px
+    position: absolute
+    z-index: 3
+.example
+    right: -120px
+    position: absolute
+    background: #49c5f1
+    color: #fff
+    padding: 20px
+    &:after
+        content: ''
+        height: 80px
+        width: 32px
+        background: url(../image/icon1.png) center no-repeat
+        left: -32px
+        top: -2px
+        position: absolute
+        z-index: 3
+    &:before
+        content: ''
+        height: 40px
+        width: 30px
+        background: url(../image/icon2.png) center no-repeat
+        left: -51px
+        top: 44px
+        position: absolute
+        z-index: 3
+    & p
+        font-size: 1.8rem
+        max-width: 320px
+        margin: 0
+        text-align: left
+        width: 100%
